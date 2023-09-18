@@ -1,0 +1,196 @@
+html, 
+body {
+  height: 100%;
+}
+
+.body{
+  display: flex;
+  flex-direction: column;
+}
+.main-bio {
+  background-color: #1f2937;
+  height: 650px;
+  width: auto;
+  padding-bottom: 100px;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 22px;
+}
+.left-header {
+  margin-left: 170px;
+  font-weight: bold;
+}
+.Krow-header {
+  color: white;
+  font-size: 34px;
+}
+.right-header {
+  font-size: 18px;
+  display: flex;
+  gap: 24px;
+  margin-right: 50px;
+  margin-right: 170px;
+
+}
+a {
+  color: white;
+  font-size: 22px;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+
+.website-bio {
+  display: flex;
+  margin-top: 60px;
+ justify-content: center;
+ align-items: center;
+ gap: 120px;
+ padding: 50px;
+ margin-left: 120px;
+ margin-right: 120px;
+}
+.left-bio {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+}
+.short-website-bio {
+  font-size: 20px;
+  color: rgb(214, 211, 211);
+}
+.pixel-space {
+  height: 325px;
+  width: 650px;
+  border: solid;
+  border-width: 3px;
+  border-color: aliceblue;
+}
+.bio-signup-button {
+  border: none;
+  background-color: #3882f6;
+  color: white;
+  padding: 8px 30px;
+  font-weight: bold;
+  border-width: 3px;
+  border-radius: 8px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.bio-signup-button:hover {
+  cursor: pointer;
+}
+
+
+.artwork-showcase {
+  padding: 40px;
+  flex-wrap: wrap;
+  width: auto;
+}
+h2 {
+  text-align: center;
+  font-size: 56px;
+}
+.artwork-box {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 80px;
+margin-top: 70px;
+}
+.artwork-solo {
+ 
+}
+.art-pic-solo {
+  height: 300px;
+  width: 300px;
+  border: solid;
+ border-color: #3882f6;
+ border-radius: 16px;
+ border-width: 7px;
+}
+.art-info-text {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.art-info-text-small {
+  text-align: center;
+  font-size: 24px;
+  color: rgb(163, 160, 160);
+}
+
+
+
+.art-quote-box {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 120px;
+}
+.art-quote {
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+}
+.art-quote-author {
+  text-align: right;
+  font-size: 26px;
+  font-weight: bold
+}
+
+
+.art-signup-container {
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+}
+.art-signup-box {
+background-color: #3882f6;
+padding: 40px 160px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 180px;
+}
+.signup-text{
+font-size: 32px;
+font-weight: bold;
+color: white;
+}
+.mail-signup-button {
+border-color: white;
+background-color: #3882f6;
+color: white;
+padding: 4px 30px;
+font-weight: bold;
+border: solid;
+border-width: 3px;
+border-radius: 8px;
+font-size: 22px;
+font-weight: bold;
+}
+.mail-signup-button:hover {
+  cursor: pointer;
+}
+.short-signup-text {
+  font-size: 24px;
+  color: rgb(238, 235, 235);
+}
+
+
+.footer {
+  padding: 60px;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+}
