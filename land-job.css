@@ -1,6 +1,7 @@
 html, 
 body {
-  height: 100%;
+  height: max-content;
+  max-width: 100%;
 }
 
 .body{
@@ -10,14 +11,17 @@ body {
 .main-bio {
   background-color: #1f2937;
   height: 650px;
-  width: auto;
   padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
 }
 
 .main-header {
   display: flex;
   justify-content: space-between;
   padding: 22px;
+ 
 }
 .left-header {
   margin-left: 170px;
@@ -102,7 +106,10 @@ display: flex;
 justify-content: center;
 align-items: center;
 gap: 80px;
+flex-wrap: wrap;
 margin-top: 70px;
+max-width: 100%;
+flex-shrink: 1;
 }
 .artwork-solo {
  
