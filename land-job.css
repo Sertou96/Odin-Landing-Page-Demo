@@ -10,17 +10,25 @@ body {
 }
 .main-bio {
   background-color: #1f2937;
-  height: 650px;
+  min-height: 0px;
+  width: auto;
   padding-bottom: 100px;
   display: flex;
   flex-direction: column;
-  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-shrink: 1;
+  display: flow-root;
+
 }
 
 .main-header {
   display: flex;
   justify-content: space-between;
   padding: 22px;
+  flex-wrap: wrap;
+  flex: 1;
+  min-height: 0px;
  
 }
 .left-header {
@@ -35,7 +43,6 @@ body {
   font-size: 18px;
   display: flex;
   gap: 24px;
-  margin-right: 50px;
   margin-right: 170px;
 
 }
@@ -58,6 +65,10 @@ a:hover {
  padding: 50px;
  margin-left: 120px;
  margin-right: 120px;
+ flex-wrap: wrap;
+ min-height: 0px;
+ flex: 2;
+ width: auto;
 }
 .left-bio {
   color: white;
@@ -69,8 +80,8 @@ a:hover {
   color: rgb(214, 211, 211);
 }
 .pixel-space {
-  height: 325px;
-  width: 650px;
+  height: 300px;
+  width: 600px;
   border: solid;
   border-width: 3px;
   border-color: aliceblue;
